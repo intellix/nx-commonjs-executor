@@ -1,0 +1,11 @@
+{
+  "name": "graphql-nx-plugin",
+  "version": "0.0.1",
+  "dependencies": {
+    "@nx/devkit": "19.3.0",
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "private": true,
+  "executors": "./executors.json"
+}

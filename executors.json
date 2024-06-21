@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "extract-schema": {
+      "implementation": "./libs/graphql-nx-plugin/src/executors/extract-schema/executor",
+      "schema": "./libs/graphql-nx-plugin/src/executors/extract-schema/schema.json",
+      "description": "extract-schema executor"
+    }
+  }
+}

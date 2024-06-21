@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/db": ["libs/db/src/index.ts"],
+      "@org/graphql-nx-plugin": ["libs/graphql-nx-plugin/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
